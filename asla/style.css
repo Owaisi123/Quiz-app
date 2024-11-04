@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://images.pexels.com/photos/17561470/pexels-photo-17561470/free-photo-of-smartphone-and-laptop-creative-electronic-devices.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin: auto;
+    color: #fff;
+}
+input, button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+input {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+}
+.hidden {
+    display: none;
+}
+#quiz {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+}
+.option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+.option:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+.correct {
+    background: green;
+    color: white;
+}
+.wrong {
+    background: red;
+    color: white;
+}
+#timer {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+#result {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
